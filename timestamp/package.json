@@ -1,0 +1,15 @@
+{
+  "name": "pi-message-timestamp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Timestamp rows above Pi user and assistant messages",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22.19.0" },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "^1.3.0",
+    "@earendil-works/pi-tui": "^1.3.0"
+  },
+  "pi": { "extensions": ["./index.ts"] },
+  "scripts": { "test": "node --test test/settings.test.ts" }
+}

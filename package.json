@@ -1,0 +1,16 @@
+{
+  "name": "pi-extension",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pi extensions: timestamps above user and assistant messages",
+  "license": "MIT",
+  "type": "module",
+  "repository": "github:co1smos/pi-extension",
+  "engines": { "node": ">=22.19.0" },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "^1.3.0",
+    "@earendil-works/pi-tui": "^1.3.0"
+  },
+  "pi": { "extensions": ["./timestamp/index.ts"] },
+  "scripts": { "test": "node --test timestamp/test/settings.test.ts" }
+}

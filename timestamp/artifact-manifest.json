@@ -1,0 +1,23 @@
+{
+  "NOTICE.md": "6489faad46dab32c8c4afd8fd41f6977b63eabc0469b4ca0182e34a901907084",
+  "README.md": "a85c0a8d0f72782e78873528e2bb95f3d4f5511593aa05b15d7dc32da2c85e8b",
+  "design.md": "e36161b7bf53dc829be4a4af0aa44ba3471b5a308683eee1c7c077b021171899",
+  "extension-demo-results.json": "398cc52d966f53f3e3d92117bb31f620216eeb59cdfbef2eab46fc53558918fa",
+  "feedback-receipt.md": "dfdd45c34fa11b3d55a1fd13c764deb38d3c3df7c3197361f3269c09f2da9844",
+  "images/timestamp-compact.svg": "72b6ca42594bb68a94638c7f5c0522576848f5bd292347aad39de9e9f9ac8271",
+  "images/timestamp-dated.svg": "bd1befd14609b1827d9f0896a6854ff89e67eef74ee1b2caecd81b2cb5ce902d",
+  "images/timestamp-extension-demo.svg": "bd8db3184f7550f8c564d39a08d93b3d2c40cc473a6336a99b3c37f9b62b7df3",
+  "images/timestamp-narrow.svg": "a694eb2317a2bac5a782d41b7623efe4ae55a3c3947482aa803c60c08d266032",
+  "images/timestamp-terminal-local.svg": "2632d3ba8a3b327ab5b8f91afb2ace987e54eb54638c1369740298deb3cdbe30",
+  "images/timestamp-terminal-shanghai.svg": "cfc4b10737586ff26fee1a7d1170222c46444d1dd752f9c609b33946cacd2069",
+  "index.ts": "eab4863070676a81b820f952bab4bae234afc2a6c1d11cfa67b80bd1b4baf4ae",
+  "package.json": "6cbb9eaac91d5fc2024879a2bc74846d51f64c34bc9864857e2c7a6c47cb2d75",
+  "research-evidence.md": "f1bf66dd1a34b755fc0a3ac784142651a8efa5308ff53f3f3936176a1ca76b4f",
+  "research-probes.json": "fb958892cbfa5cc6d90a3b95730a7b3b9a32448e1c604dae5855f54a94311f12",
+  "review.html": "6ad9b855edc7c00004605bc379648fdd7ee13859fddaf6b26b1e966761a83710",
+  "settings.ts": "ba6a5ef7905c776b42f4d1d4c8f4a2896dd2c2ee2408c985330ab75ac692d72a",
+  "test/settings.test.ts": "19cbae1ce292771fcad9241617353aa8f7a60fbe9b395b448617efc54c1058dc",
+  "test/synthetic-provider.ts": "60b3bd11279255d245c7903f4cd5ec523ff97fd0cf76f52fb21db9751c99195f",
+  "test/terminal-smoke.py": "cfb1911b96a46f898d64b6d08d5416e4c9e452172b5a4f17f7e1e7d63e8402de",
+  "validation.md": "b40bd0d1d0b7d73808d1f0b46a78f203feff87e833453bd60b61118381100d1b"
+}

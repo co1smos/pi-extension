@@ -1,0 +1,131 @@
+{
+  "result": "PASS",
+  "installedVersion": "1.3.0",
+  "scope": "Actual installed extension loader/runner and native transcript methods/components with in-memory SessionManager and exact installed AgentSession handler-body adapter; no full AgentSession/TUI/terminal/provider/auth store.",
+  "mockedServices": [
+    "footer",
+    "program status",
+    "pending-input display",
+    "cache/thinking notices",
+    "terminal requestRender"
+  ],
+  "referenceCommit": "4db7ab6ca6ca7214c72c26fbca6bec64211bd379",
+  "hostTimeZone": "America/Los_Angeles",
+  "loadedCandidate": true,
+  "loadedUnmodifiedReference": true,
+  "live": [
+    "",
+    " 2026-10-22 11:32:05 UTC-07:00                                                  ",
+    "",
+    "                                                                                ",
+    " Please show the timestamp above each message.                                  ",
+    "                                                                                ",
+    "",
+    " 2026-10-22 11:32:09 UTC-07:00                                                  ",
+    "",
+    " Each timestamp stays above its message.                                        "
+  ],
+  "replay": [
+    "",
+    " 2026-10-22 11:32:05 UTC-07:00                                                  ",
+    "",
+    "                                                                                ",
+    " Please show the timestamp above each message.                                  ",
+    "                                                                                ",
+    "",
+    " 2026-10-22 11:32:09 UTC-07:00                                                  ",
+    "",
+    " Each timestamp stays above its message.                                        "
+  ],
+  "streamingStart": [
+    "",
+    " 2026-10-22 11:32:05 UTC-07:00                                                  ",
+    "",
+    "                                                                                ",
+    " Please show the timestamp above each message.                                  ",
+    "                                                                                ",
+    "",
+    " 2026-10-22 11:32:09 UTC-07:00                                                  "
+  ],
+  "streamingUpdate": [
+    "",
+    " 2026-10-22 11:32:05 UTC-07:00                                                  ",
+    "",
+    "                                                                                ",
+    " Please show the timestamp above each message.                                  ",
+    "                                                                                ",
+    "",
+    " 2026-10-22 11:32:09 UTC-07:00                                                  ",
+    "",
+    " Each timestamp stays above its message.                                        "
+  ],
+  "branchOrder": [
+    "custom",
+    "message",
+    "custom",
+    "message"
+  ],
+  "messageTimes": [
+    1792693925000,
+    1792693929000
+  ],
+  "modelContextUnchanged": true,
+  "streamingHeaderCount": 2,
+  "identicalMessages500msApartHeaders": 2,
+  "reference": {
+    "userAfterEnd": [
+      "                                                                                ",
+      " Please show the timestamp above each message.                                  ",
+      "                                                                                ",
+      "",
+      "⏱ 11:32:05 (3h ago) · user message                                              "
+    ],
+    "assistantDuringStream": [
+      "                                                                                ",
+      " Please show the timestamp above each message.                                  ",
+      "                                                                                ",
+      "",
+      "⏱ 11:32:05 (3h ago) · user message                                              ",
+      "",
+      " Each timestamp stays above its message.                                        "
+    ],
+    "afterEnd": [
+      "                                                                                ",
+      " Please show the timestamp above each message.                                  ",
+      "                                                                                ",
+      "",
+      "⏱ 11:32:05 (3h ago) · user message                                              ",
+      "",
+      "⏱ 11:32:09 (3h ago) · ai response                                               ",
+      "",
+      " Each timestamp stays above its message.                                        "
+    ],
+    "replay": [
+      "",
+      "⏱ 11:32:05 (3h ago) · user message                                              ",
+      "",
+      "                                                                                ",
+      " Please show the timestamp above each message.                                  ",
+      "                                                                                ",
+      "",
+      "⏱ 11:32:09 (3h ago) · ai response                                               ",
+      "",
+      " Each timestamp stays above its message.                                        "
+    ],
+    "nearbySecondUserMarkerSuppressed": true
+  },
+  "zoneExamples": {
+    "local": "2026-10-22 11:32:05 UTC-07:00",
+    "UTC": "2026-10-22 18:32:05 UTC+00:00",
+    "Shanghai": "2026-10-23 02:32:05 UTC+08:00",
+    "DST": [
+      "2026-11-01 01:30:00 UTC-07:00",
+      "2026-11-01 01:30:00 UTC-08:00"
+    ]
+  },
+  "limitations": [
+    "Full TTY geometry, reload command, disk resume, fork/tree/compaction not tested",
+    "message_start can create metadata row for tool-only/empty assistant before content is known",
+    "No backfill of messages predating extension is claimed or required"
+  ]
+}
